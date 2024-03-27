@@ -1,0 +1,4 @@
+# Accelerating vector search with RAPIDS cuVS
+Vector search is important because it underpins many data mining and artificial intelligence applications, particularly retrieval augmented generation (RAG) workflows. In a typical RAG pipeline, text queries are encoded into numerical embeddings. Thes embeddings are then then searched against a collection of domain specific embeddings (often stored in vector databases). The job of vector search is to find results that are similar to the query embeddings using nearest neighbor algorithms. K-nearest neighbor (kNN) algorithms are the most accurate, but they are also the most computationally intensive. Approximate nearest neighbor (ANN) algorithms sacrifice a little accuracy for huge performance gains. In this talk we will introduce RAPIDS cuVS, an open-source library for vector search, and show how to use its ANN algorithms on a GPU.
+
+https://researchacademy.asu.edu/gpuday2024
